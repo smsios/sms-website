@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Certification and compliance field notes</title>
+  <desc id="desc">An editorial desk with a notebook, process notes and an audit checklist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#123D4A"/><stop offset="1" stop-color="#276D79"/></linearGradient>
+    <filter id="shadow" x="198" y="104" width="1228" height="747" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="30" stdDeviation="27" flood-color="#041923" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 94H1600M0 206H1600M0 318H1600M0 430H1600M0 542H1600M0 654H1600M0 766H1600" stroke="#C9E7E5" stroke-opacity=".13" stroke-width="2"/>
+  <g filter="url(#shadow)" transform="rotate(4 800 450)">
+    <rect x="310" y="126" width="980" height="650" rx="30" fill="#FFFDF7"/>
+    <path d="M784 126V776" stroke="#D8E5DC" stroke-width="4"/>
+    <rect x="386" y="213" width="252" height="22" rx="11" fill="#DF7B3F"/>
+    <rect x="386" y="255" width="292" height="14" rx="7" fill="#B9CFCD"/>
+    <rect x="386" y="287" width="230" height="14" rx="7" fill="#B9CFCD"/>
+    <g stroke="#2E7892" stroke-width="8" stroke-linecap="round"><path d="M393 375L425 407L488 336"/><path d="M393 479L425 511L488 440"/><path d="M393 583L425 615L488 544"/></g>
+    <g stroke="#C4D8D8" stroke-width="16" stroke-linecap="round"><path d="M537 375H694"/><path d="M537 479H661"/><path d="M537 583H709"/></g>
+    <circle cx="997" cy="422" r="165" fill="#E9F2E6" stroke="#78A85A" stroke-width="7"/>
+    <circle cx="997" cy="422" r="104" fill="#FFFDF7" stroke="#2E7892" stroke-width="7" stroke-dasharray="12 14"/>
+    <path d="M949 422L982 455L1052 377" stroke="#DF7B3F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="997" y="526" text-anchor="middle" fill="#123D4A" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">FIELD NOTES</text>
+    <rect x="868" y="644" width="258" height="22" rx="11" fill="#B9CFCD"/>
+    <rect x="868" y="680" width="184" height="14" rx="7" fill="#B9CFCD"/>
+  </g>
+  <path d="M130 690C248 622 335 621 450 692" stroke="#DF7B3F" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 28"/>
+</svg>

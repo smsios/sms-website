@@ -1,0 +1,31 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Information security</title>
+  <desc id="desc">A secure company laptop connected to protected information systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="148" y1="74" x2="1482" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#0B2845"/><stop offset="1" stop-color="#164D70"/></linearGradient>
+    <linearGradient id="screen" x1="550" y1="184" x2="1045" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#DFF4FB"/><stop offset="1" stop-color="#B6DAE7"/></linearGradient>
+    <filter id="shadow" x="388" y="119" width="840" height="634" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#020E19" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".28" stroke="#89D1E1" stroke-width="2"><path d="M0 135H1600M0 315H1600M0 495H1600M0 675H1600"/><path d="M140 0V900M340 0V900M540 0V900M740 0V900M940 0V900M1140 0V900M1340 0V900"/></g>
+  <g stroke="#89D1E1" stroke-opacity=".72" stroke-width="4"><path d="M238 225L486 360M1338 210L1110 374M1329 710L1070 589M259 712L515 595"/></g>
+  <g fill="#8BCF2F"><circle cx="238" cy="225" r="14"/><circle cx="1338" cy="210" r="14"/><circle cx="1329" cy="710" r="14"/><circle cx="259" cy="712" r="14"/></g>
+  <g filter="url(#shadow)">
+    <rect x="470" y="145" width="660" height="490" rx="32" fill="#EAF4F6"/>
+    <rect x="500" y="177" width="600" height="407" rx="18" fill="url(#screen)"/>
+    <path d="M500 508H1100V584H500V508Z" fill="#85C1D2" fill-opacity=".5"/>
+    <rect x="530" y="220" width="150" height="20" rx="10" fill="#2E7892" fill-opacity=".36"/>
+    <rect x="530" y="258" width="272" height="13" rx="6.5" fill="#2E7892" fill-opacity=".22"/>
+    <path d="M565 402H655L700 352L754 454L819 330L876 414L958 297L1040 382" stroke="#2E7892" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="700" cy="352" r="11" fill="#8BCF2F"/><circle cx="819" cy="330" r="11" fill="#8BCF2F"/><circle cx="958" cy="297" r="11" fill="#DF7B3F"/>
+    <path d="M445 635H1155L1215 701H385L445 635Z" fill="#D6E4E8"/>
+    <path d="M625 665H975" stroke="#7EA4AE" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1012 470)">
+    <path d="M154 0C208 39 262 39 308 0V135C308 225 243 278 154 312C65 278 0 225 0 135V0C46 39 100 39 154 0Z" fill="#8BCF2F" stroke="#F3FFF0" stroke-width="8"/>
+    <rect x="96" y="123" width="116" height="94" rx="16" fill="#123D4A"/>
+    <path d="M121 123V96C121 52 187 52 187 96V123" stroke="#123D4A" stroke-width="21" stroke-linecap="round"/>
+    <circle cx="154" cy="168" r="12" fill="#8BCF2F"/>
+  </g>
+  <text x="115" y="125" fill="#DFF4FB" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="5">RISK-BASED SECURITY</text>
+</svg>

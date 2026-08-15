@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Internal audit evidence and corrective action</title>
+  <desc id="desc">A clipboard audit checklist linking findings to corrective actions and improvement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="144" y1="0" x2="1456" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8EF"/><stop offset="1" stop-color="#E5F0E1"/></linearGradient>
+    <filter id="shadow" x="357" y="97" width="821" height="725" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="25" stdDeviation="22" flood-color="#123D4A" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 754H1600" stroke="#123D4A" stroke-opacity=".12" stroke-width="4"/>
+  <g filter="url(#shadow)">
+    <rect x="444" y="126" width="690" height="638" rx="32" fill="#123D4A"/>
+    <rect x="480" y="175" width="618" height="553" rx="15" fill="#FFFDF8"/>
+    <rect x="660" y="105" width="258" height="91" rx="26" fill="#2E7892"/>
+    <rect x="706" y="133" width="166" height="20" rx="10" fill="#DFF4FB"/>
+    <text x="550" y="266" fill="#123D4A" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="3">INTERNAL AUDIT</text>
+    <rect x="550" y="302" width="340" height="14" rx="7" fill="#C5D8D5"/>
+    <rect x="550" y="332" width="242" height="14" rx="7" fill="#C5D8D5"/>
+    <g><circle cx="587" cy="423" r="25" fill="#78A85A"/><path d="M575 423L584 432L602 410" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="635" y="412" width="304" height="18" rx="9" fill="#B7CFD0"/></g>
+    <g><circle cx="587" cy="500" r="25" fill="#78A85A"/><path d="M575 500L584 509L602 487" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="635" y="489" width="255" height="18" rx="9" fill="#B7CFD0"/></g>
+    <g><circle cx="587" cy="577" r="25" fill="#DF7B3F"/><path d="M576 566L598 588M598 566L576 588" stroke="white" stroke-width="7" stroke-linecap="round"/><rect x="635" y="566" width="327" height="18" rx="9" fill="#B7CFD0"/></g>
+    <rect x="550" y="642" width="405" height="40" rx="20" fill="#E5F0E1"/>
+    <text x="582" y="669" fill="#416C50" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1">ACTION OWNED · EFFECTIVENESS CHECKED</text>
+  </g>
+  <g stroke="#DF7B3F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><path d="M277 309C190 388 198 541 300 604"/><path d="M303 604L260 614L271 571"/><path d="M1327 591C1415 512 1406 358 1301 299"/><path d="M1299 299L1341 288L1331 331"/></g>
+  <text x="164" y="182" fill="#123D4A" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">FIND · FIX · VERIFY</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Product and market compliance</title>
+  <desc id="desc">A product package prepared for export with market and conformity checks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF7EA"/><stop offset="1" stop-color="#DFF1F4"/></linearGradient>
+    <filter id="shadow" x="371" y="163" width="877" height="652" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="27" stdDeviation="23" flood-color="#123D4A" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".23" stroke="#2E7892" stroke-width="3"><path d="M0 115H1600M0 785H1600"/><path d="M122 0V900M1476 0V900"/></g>
+  <g filter="url(#shadow)">
+    <path d="M483 342L804 190L1135 342L804 500L483 342Z" fill="#F2C36B"/>
+    <path d="M483 342L804 500V754L483 595V342Z" fill="#D77A44"/>
+    <path d="M1135 342L804 500V754L1135 595V342Z" fill="#E99B55"/>
+    <path d="M804 190V500" stroke="#FFF1D2" stroke-width="9"/>
+    <path d="M646 264L974 414" stroke="#FFF1D2" stroke-width="9" stroke-dasharray="18 14"/>
+    <rect x="664" y="518" width="286" height="127" rx="13" fill="#FFFDF7" transform="rotate(0 664 518)"/>
+    <text x="720" y="574" fill="#123D4A" font-family="Arial, sans-serif" font-size="47" font-weight="700" letter-spacing="4">CE</text>
+    <rect x="720" y="598" width="157" height="10" rx="5" fill="#A8C5C8"/>
+  </g>
+  <g>
+    <circle cx="405" cy="302" r="116" fill="#78A85A"/><path d="M354 301L390 337L463 254" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="405" y="452" text-anchor="middle" fill="#416C50" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">PRODUCT REVIEW</text>
+    <circle cx="1203" cy="316" r="116" fill="#2E7892"/><path d="M1153 316L1188 351L1261 268" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1203" y="465" text-anchor="middle" fill="#246076" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">MARKET ROUTE</text>
+    <circle cx="804" cy="778" r="78" fill="#DF7B3F"/><path d="M769 778L795 804L846 746" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="800" y="112" text-anchor="middle" fill="#123D4A" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="5">READY FOR THE RIGHT MARKET</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stage one and stage two audit process</title>
+  <desc id="desc">A certification audit timeline with readiness and on-site assessment stages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="87" y1="32" x2="1465" y2="862" gradientUnits="userSpaceOnUse"><stop stop-color="#FDF8EF"/><stop offset="1" stop-color="#DFF0F3"/></linearGradient>
+    <filter id="shadow" x="164" y="188" width="1272" height="580" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#123D4A" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".17" stroke="#2E7892" stroke-width="2"><path d="M78 0V900M238 0V900M398 0V900M558 0V900M718 0V900M878 0V900M1038 0V900M1198 0V900M1358 0V900M1518 0V900"/></g>
+  <text x="160" y="180" fill="#123D4A" font-family="Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="4">CERTIFICATION AUDIT</text>
+  <g filter="url(#shadow)">
+    <rect x="164" y="257" width="1272" height="415" rx="32" fill="#FFFDF8"/>
+    <path d="M296 465H1290" stroke="#A8C7CC" stroke-width="10" stroke-linecap="round"/>
+    <path d="M800 465H1236" stroke="#78A85A" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="393" cy="465" r="40" fill="#DF7B3F"/><circle cx="800" cy="465" r="52" fill="#2E7892"/><circle cx="1236" cy="465" r="40" fill="#78A85A"/>
+    <rect x="255" y="310" width="278" height="105" rx="18" fill="#FFF4E9"/>
+    <text x="286" y="355" fill="#123D4A" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">PREPARE</text>
+    <text x="286" y="387" fill="#657C82" font-family="Arial, sans-serif" font-size="16">Scope · records · review</text>
+    <rect x="642" y="303" width="316" height="122" rx="18" fill="#E4F2F5"/>
+    <text x="678" y="352" fill="#123D4A" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="2">STAGE 1</text>
+    <text x="678" y="387" fill="#52747E" font-family="Arial, sans-serif" font-size="16">Readiness assessment</text>
+    <rect x="1097" y="310" width="278" height="105" rx="18" fill="#EEF5E9"/>
+    <text x="1127" y="355" fill="#123D4A" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">STAGE 2</text>
+    <text x="1127" y="387" fill="#52747E" font-family="Arial, sans-serif" font-size="16">Evidence in practice</text>
+    <text x="346" y="554" fill="#657C82" font-family="Arial, sans-serif" font-size="17">System ready</text>
+    <text x="735" y="566" fill="#123D4A" font-family="Arial, sans-serif" font-size="17" font-weight="700">Close gaps</text>
+    <text x="1178" y="554" fill="#657C82" font-family="Arial, sans-serif" font-size="17">Certification</text>
+  </g>
+  <path d="M768 782C820 753 867 753 920 782" stroke="#DF7B3F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M887 748L920 782L883 812" stroke="#DF7B3F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

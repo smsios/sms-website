@@ -1,0 +1,34 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Connected management systems</title>
+  <desc id="desc">A quality, environmental and safety management system shown as three connected audit boards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="160" y1="90" x2="1440" y2="810" gradientUnits="userSpaceOnUse"><stop stop-color="#0E3441"/><stop offset="1" stop-color="#1B5B65"/></linearGradient>
+    <linearGradient id="paper" x1="390" y1="156" x2="1212" y2="738" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF7"/><stop offset="1" stop-color="#E9F0E6"/></linearGradient>
+    <filter id="shadow" x="218" y="102" width="1164" height="715" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="26" stdDeviation="25" flood-color="#031B25" flood-opacity=".36"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 133H1600M0 286H1600M0 439H1600M0 592H1600M0 745H1600" stroke="#C4E2D7" stroke-opacity=".11" stroke-width="2"/>
+  <path d="M182 0V900M432 0V900M682 0V900M932 0V900M1182 0V900M1432 0V900" stroke="#C4E2D7" stroke-opacity=".08" stroke-width="2"/>
+  <g filter="url(#shadow)" transform="rotate(-4 800 450)">
+    <rect x="300" y="135" width="1000" height="630" rx="30" fill="url(#paper)"/>
+    <rect x="350" y="190" width="232" height="16" rx="8" fill="#D9E5DD"/>
+    <rect x="350" y="222" width="380" height="12" rx="6" fill="#D9E5DD"/>
+    <rect x="1062" y="190" width="170" height="40" rx="20" fill="#DDF0D4"/>
+    <circle cx="1117" cy="444" r="168" fill="#3D91A4" fill-opacity=".11" stroke="#2E7892" stroke-width="6"/>
+    <circle cx="855" cy="444" r="168" fill="#8CB96B" fill-opacity=".15" stroke="#78A85A" stroke-width="6"/>
+    <circle cx="986" cy="593" r="168" fill="#DF7B3F" fill-opacity=".11" stroke="#DF7B3F" stroke-width="6"/>
+    <circle cx="855" cy="444" r="112" fill="#F9FBF7"/>
+    <circle cx="1117" cy="444" r="112" fill="#F9FBF7"/>
+    <circle cx="986" cy="593" r="112" fill="#F9FBF7"/>
+    <path d="M809 435L841 467L907 395" stroke="#78A85A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1072 435L1104 467L1170 395" stroke="#2E7892" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M941 584L973 616L1039 544" stroke="#DF7B3F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="855" y="522" text-anchor="middle" fill="#123D4A" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">QUALITY</text>
+    <text x="1117" y="522" text-anchor="middle" fill="#123D4A" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">ENVIRONMENT</text>
+    <text x="986" y="671" text-anchor="middle" fill="#123D4A" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">SAFETY</text>
+    <rect x="388" y="641" width="274" height="15" rx="7.5" fill="#D9E5DD"/>
+    <rect x="388" y="677" width="192" height="12" rx="6" fill="#D9E5DD"/>
+  </g>
+  <circle cx="1322" cy="153" r="74" fill="#DF7B3F" fill-opacity=".95"/>
+  <path d="M1288 153H1356M1322 119V187" stroke="#FFFDF7" stroke-width="10" stroke-linecap="round"/>
+</svg>

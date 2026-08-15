@@ -1,0 +1,37 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Food safety quality control</title>
+  <desc id="desc">A hygienic food production line inspected through a quality control checklist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#E6F2E1"/><stop offset="1" stop-color="#FFF4E5"/></linearGradient>
+    <filter id="shadow" x="137" y="72" width="1327" height="748" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#123D4A" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 700H1600" stroke="#123D4A" stroke-opacity=".12" stroke-width="4"/>
+  <g opacity=".28" stroke="#2E7892" stroke-width="3"><path d="M90 126H454M90 180H360M1210 142H1506M1270 196H1506"/></g>
+  <g filter="url(#shadow)">
+    <rect x="708" y="134" width="585" height="520" rx="32" fill="#123D4A"/>
+    <rect x="742" y="171" width="517" height="438" rx="18" fill="#F9FBF7"/>
+    <rect x="798" y="224" width="178" height="22" rx="11" fill="#D7E6D1"/>
+    <rect x="798" y="267" width="316" height="14" rx="7" fill="#D7E6D1"/>
+    <path d="M798 347H1186M798 425H1186M798 503H1186" stroke="#C6D9D9" stroke-width="4"/>
+    <circle cx="840" cy="386" r="22" fill="#78A85A"/><path d="M829 386L837 394L853 375" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="888" y="374" width="226" height="18" rx="9" fill="#A7C3C6"/>
+    <circle cx="840" cy="464" r="22" fill="#78A85A"/><path d="M829 464L837 472L853 453" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="888" y="452" width="172" height="18" rx="9" fill="#A7C3C6"/>
+    <circle cx="840" cy="542" r="22" fill="#DF7B3F"/><rect x="888" y="530" width="250" height="18" rx="9" fill="#A7C3C6"/>
+  </g>
+  <g>
+    <rect x="160" y="525" width="928" height="115" rx="28" fill="#2E7892"/>
+    <rect x="160" y="589" width="928" height="51" fill="#1F657B"/>
+    <g fill="#FDFBF5" stroke="#123D4A" stroke-width="7">
+      <rect x="245" y="457" width="156" height="106" rx="18"/><rect x="470" y="457" width="156" height="106" rx="18"/><rect x="695" y="457" width="156" height="106" rx="18"/>
+    </g>
+    <g fill="#78A85A"><circle cx="290" cy="497" r="18"/><circle cx="335" cy="497" r="18"/><circle cx="515" cy="497" r="18"/><circle cx="560" cy="497" r="18"/><circle cx="740" cy="497" r="18"/><circle cx="785" cy="497" r="18"/></g>
+    <g fill="#123D4A"><circle cx="277" cy="685" r="27"/><circle cx="501" cy="685" r="27"/><circle cx="726" cy="685" r="27"/><circle cx="950" cy="685" r="27"/></g>
+  </g>
+  <g transform="translate(160 166)">
+    <path d="M159 0C215 40 272 38 318 0V143C318 237 252 289 159 324C66 289 0 237 0 143V0C46 38 103 40 159 0Z" fill="#78A85A"/>
+    <path d="M95 158L138 201L226 105" stroke="white" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="160" y="590" fill="#123D4A" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">CONTROLLED PROCESS</text>
+</svg>
