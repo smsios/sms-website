@@ -1,39 +1,18 @@
 import { useOutletContext } from "react-router-dom";
 import PageMeta from "../components/PageMeta.jsx";
-import About from "../components/About.jsx";
-import Team from "../components/Team.jsx";
-import Industries from "../components/Industries.jsx";
-import CtaBanner from "../components/CtaBanner.jsx";
-import EditorialHero from "../components/EditorialHero.jsx";
+import { ConsultationCta, SectionHeading } from "../components/SiteElements.jsx";
+import { certifyingBodyLogos } from "../data/assetLists.js";
+import { company, industries } from "../data/content.js";
 
-export default function AboutPage() {
+export default function About() {
   const { onEnquire } = useOutletContext();
-  return (
-    <>
-      <PageMeta
-        title="About Us"
-        description="Meet System Management Services: a field-led consultancy for practical certification implementation, training and audit readiness."
-        path="/about"
-      />
-
-      <EditorialHero
-        eyebrow="About Us"
-        title="Built by lead auditors,"
-        accent="not generalists."
-        description="A field-led consultancy shaped by implementation, training, evidence, records and the pressure of real certification audits."
-        image="/assets/team/team-photo-2.jpeg"
-        imageAlt="SMS lead auditor"
-        label="The People Issue"
-      />
-
-      <About />
-      <Team />
-      <Industries />
-      <CtaBanner
-        eyebrow="Work With Us"
-        heading="Talk to the people who'll actually run your audit"
-        onEnquire={onEnquire}
-      />
-    </>
-  );
+  return <>
+    <PageMeta title="About System Management Services" description="Discover SMS, its management team, consulting experience and industry coverage." path="/about" />
+    <section className="about-hero"><div className="container"><p className="eyebrow">About System Management Services</p><div className="about-title-row"><h1>A consulting practice built around practical progress.</h1><p>SMS supports organisations across India and overseas with management-system certification, product compliance, ESG, audits and training.</p></div><div className="about-stat-row"><div><strong>16+</strong><span>years of consulting experience</span></div><div><strong>500+</strong><span>satisfied clients</span></div><div><strong>Pan India</strong><span>and overseas support</span></div></div></div></section>
+    <section className="section about-story"><div className="container two-column-strong"><div><p className="eyebrow">Our story</p><h2>Experienced support for better control, confidence and continual improvement.</h2></div><div><p>System Management Services (SMS) provides ISO and country-specific system and product certification consulting to organisations of every scale. Our work extends from management systems and product compliance to sustainability, vendor and customer audit compliance.</p><p>Promoted by management and engineering professionals, SMS brings more than 16 years of consulting experience to engagements in chemicals, pharmaceuticals, healthcare, food, textiles, packaging, engineering, infrastructure, energy, automotive, aerospace, IT and service sectors.</p><p>Each project is shaped around the organisation’s business objective, applicable requirements and day-to-day operations—not a generic documentation set.</p></div></div></section>
+    <section className="section leadership-section"><div className="container"><SectionHeading eyebrow="Leadership" title="Management that stays close to the work." /><div className="leadership-grid">{company.partners.map((partner) => <article key={partner.name}><figure><img src={partner.photo} alt={partner.name} /></figure><div><p className="eyebrow">{partner.role}</p><h3>{partner.name}</h3><p>{partner.qualification}</p><a href={`tel:${partner.phone.replace(/\s/g, "")}`}>{partner.phone}</a><a href={`mailto:${partner.email}`}>{partner.email}</a></div></article>)}</div></div></section>
+    <section className="section sector-section"><div className="container two-column-strong"><div><p className="eyebrow">Industries</p><h2>Wide sector experience, one practical approach.</h2></div><div className="industry-cloud">{industries.map((industry) => <span key={industry}>{industry}</span>)}</div></div></section>
+    <section className="section body-network"><div className="container"><div className="logo-heading"><div><p className="eyebrow">Certification ecosystem</p><h2>Support for certification through internationally recognised bodies.</h2></div><p>SMS helps clients prepare for certification and assessment; the final certification decision always remains with the respective certification body.</p></div><div className="body-logo-strip" aria-label="Certification body logos, automatically scrolling on mobile"><div className="mobile-auto-track">{[...certifyingBodyLogos, ...certifyingBodyLogos].map((logo, index) => <img key={`${logo}-${index}`} src={logo} alt={index < certifyingBodyLogos.length ? "Certification body logo" : ""} aria-hidden={index >= certifyingBodyLogos.length} loading="lazy" />)}</div></div></div></section>
+    <ConsultationCta onEnquire={onEnquire} title="Bring us the requirement. We’ll help plan the route." />
+  </>;
 }

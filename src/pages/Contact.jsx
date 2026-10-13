@@ -1,51 +1,15 @@
-import Contact from "../components/Contact.jsx";
-import EditorialHero from "../components/EditorialHero.jsx";
+import { useState } from "react";
 import PageMeta from "../components/PageMeta.jsx";
 import { company } from "../data/content.js";
+import { validateLeadForm } from "../utils/googleSheets.js";
+import { sendLeadToWhatsApp } from "../utils/whatsapp.js";
 
 export default function ContactPage() {
-  return (
-    <>
-      <PageMeta
-        title="Contact Us"
-        description={`Get in touch with System Management Services. ${company.address}`}
-        path="/contact"
-      />
-
-      <EditorialHero
-        eyebrow="Contact"
-        title="Bring us your"
-        accent="audit brief."
-        description="Tell us the standard, your industry, the target date and the evidence gap. SMS will help convert the pressure into a practical roadmap."
-        image="/assets/team/team-photo-2.jpeg"
-        imageAlt="SMS partner"
-        label="The Enquiry Desk"
-        meta={[
-          { value: "+91", label: "India" },
-          { value: "Ahmedabad", label: "Office" },
-          { value: "500+", label: "Clients" },
-          { value: "16+", label: "Years" },
-        ]}
-      />
-
-      <Contact />
-
-      <section className="mag-section pb-16 md:pb-32">
-        <div className="container-page">
-          <div className="mag-card overflow-hidden p-2 sm:p-3">
-            <iframe
-              title="SMS office location"
-              src="https://www.google.com/maps?q=Suryam+Elegance+Vastral+Ahmedabad&output=embed"
-              width="100%"
-              height="280"
-              className="w-full grayscale sm:h-[390px]"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </section>
-    </>
-  );
+  const [errors, setErrors] = useState({});
+  function submit(event) { event.preventDefault(); const form = event.currentTarget; const nextErrors = validateLeadForm(form); setErrors(nextErrors); if (!Object.keys(nextErrors).length) sendLeadToWhatsApp(form, "Contact page"); }
+  return <><PageMeta title="Contact SMS in Ahmedabad" description={`Contact System Management Services for ISO, product compliance, ESG, audit and training consultancy. ${company.address}`} path="/contact" />
+    <section className="contact-hero"><div className="container"><p className="eyebrow">Contact System Management Services</p><h1>Let’s make the next step clear.</h1><p>Share your standard, product, industry or audit requirement. Our team will help you identify a practical way forward.</p></div></section>
+    <section className="section contact-section"><div className="container contact-brand-grid"><aside className="contact-rail"><p className="eyebrow">Speak with SMS</p>{company.partners.map((partner) => <div key={partner.name}><h2>{partner.name}</h2><span>{partner.role}</span><a href={`tel:${partner.phone.replace(/\s/g, "")}`}>{partner.phone}</a><a href={`mailto:${partner.email}`}>{partner.email}</a></div>)}<div><h2>Office</h2><p>{company.address}</p><a href="https://www.isosmservices.in" target="_blank" rel="noreferrer">{company.website}</a></div></aside><form className="contact-form brand-form" onSubmit={submit} noValidate><p className="eyebrow">Send an enquiry</p><h2>Tell us about your requirement.</h2><div className="form-row"><label>Name<input name="name" required autoComplete="name" />{errors.name && <small>{errors.name}</small>}</label><label>Phone<input name="phone" required type="tel" autoComplete="tel" />{errors.phone && <small>{errors.phone}</small>}</label></div><div className="form-row"><label>Email<input name="email" type="email" autoComplete="email" />{errors.email && <small>{errors.email}</small>}</label><label>Company<input name="company" autoComplete="organization" /></label></div><label>What do you need?<select name="service" defaultValue=""><option value="" disabled>Select a service</option><option>Certification</option><option>Consultancy</option><option>Training</option><option>Customer / supplier / third-party audit</option><option>Not sure yet</option></select></label><label>Requirement<textarea name="comments" rows="5" placeholder="Tell us the standard, product, industry or target date." /></label><button className="button" type="submit">Send on WhatsApp <span>→</span></button></form></div></section>
+    <section className="map-section"><iframe title="System Management Services office location" src="https://www.google.com/maps?q=A-101%2C%20Suryam%20Elegance%2C%20Nr.%20Madhav%20Farm%2C%20S.P%20Ring%20Road%2C%20Vastral%2C%20Ahmedabad&output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></section>
+  </>;
 }

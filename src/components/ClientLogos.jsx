@@ -35,7 +35,7 @@ export default function ClientLogos() {
         >
           {clientLogos.map((src) => (
             <SwiperSlide key={src} style={{ width: "140px" }}>
-              <div className="mag-card flex h-16 items-center justify-center p-2 opacity-75 grayscale transition hover:opacity-100 hover:grayscale-0">
+              <div className="mag-card flex h-16 items-center justify-center p-2 transition hover:scale-[1.02]">
                 <img src={src} alt="Client company logo" className="max-h-14 max-w-[130px] object-contain" loading="lazy" />
               </div>
             </SwiperSlide>

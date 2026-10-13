@@ -1,41 +1,19 @@
-import { useOutletContext } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 import PageMeta from "../components/PageMeta.jsx";
-import CertifyingBodies from "../components/CertifyingBodies.jsx";
-import CtaBanner from "../components/CtaBanner.jsx";
-import EditorialHero from "../components/EditorialHero.jsx";
-import Process from "../components/Process.jsx";
-import Services from "../components/Services.jsx";
-import { stats } from "../data/content.js";
+import { ConsultationCta, SectionHeading } from "../components/SiteElements.jsx";
+
+const pathways = [
+  ["01", "Certification", "Find the standards relevant to your industry, then see how SMS can support implementation and readiness.", "/services/certification", "Browse certification sectors"],
+  ["02", "Consultancy", "From system implementation and documentation to product compliance and audit support, built around your operating reality.", "/services/consultancy", "Explore consultancy"],
+  ["03", "Training", "Build awareness, audit capability and continual-improvement habits across your team.", "/services/training", "Explore training"],
+];
 
 export default function ServicesPage() {
   const { onEnquire } = useOutletContext();
-  return (
-    <>
-      <PageMeta
-        title="ISO Certification Services in Ahmedabad, Gujarat"
-        description="ISO certification services in Ahmedabad and Gujarat: ISO 9001, ISO 14001, ISO 45001, ISO 22000, ISO 27001, FSSC 22000, IATF 16949, CE Marking and audit support."
-        path="/services"
-      />
-
-      <EditorialHero
-        eyebrow="ISO certification services / Ahmedabad"
-        title="Your certification path,"
-        accent="made practical."
-        description="Choose a standard below. SMS supports Ahmedabad and Gujarat businesses from gap assessment and documentation to training, internal audit and certification-body coordination."
-        image="/assets/team/team-photo-3.jpeg"
-        imageAlt="SMS consultant"
-        label="Standards Portfolio"
-        meta={stats}
-      />
-
-      <Services />
-      <Process />
-      <CertifyingBodies />
-      <CtaBanner
-        eyebrow="Not Sure Which Standard You Need?"
-        heading="Send us your scope. We'll map the right certification path."
-        onEnquire={onEnquire}
-      />
-    </>
-  );
+  return <><PageMeta title="Certification, Consultancy & Training" description="Explore SMS certification, consultancy and training services for ISO systems, product compliance, ESG and audit readiness." path="/services" />
+    <section className="services-hero"><div className="container"><p className="eyebrow">SMS services</p><h1>Clear support for every stage of the requirement.</h1><p>Whether you are pursuing certification, building a working system or developing team capability, choose the path that matches your next step.</p></div></section>
+    <section className="section"><div className="container"><div className="pathway-grid">{pathways.map(([number, title, text, to, label]) => <Link className="pathway-card" to={to} key={title}><span>{number}</span><h2>{title}</h2><p>{text}</p><strong>{label} <b>→</b></strong></Link>)}</div></div></section>
+    <section className="section service-statement"><div className="container"><SectionHeading eyebrow="One practical approach" title="Understand the work. Build the system. Prove the practice." /><p>SMS helps teams turn requirements into practical routines with clear responsibilities, useful documents and records, confident people and evidence that stands up to review.</p></div></section>
+    <ConsultationCta onEnquire={onEnquire} />
+  </>;
 }
